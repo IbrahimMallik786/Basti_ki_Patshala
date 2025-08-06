@@ -1,5 +1,5 @@
 .hero-section {
-  background-image: url('\bg.jpg'); /* ✅ Use public folder path */
+  background-image: url('/bg.jpg'); /* ✅ Use public folder path */
   background-size: cover;
   background-position: center;
   height: 100vh;
