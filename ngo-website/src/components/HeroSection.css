@@ -1,0 +1,32 @@
+.hero-section {
+  background-image: url('C:\Users\IBRAHIM\OneDrive\Desktop\React_App\ngo-website\public\bg.jpg'); /* ✅ Use public folder path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.donate-button {
+  background-color: #ff5722;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+  background-color: #e64a19;
+}
